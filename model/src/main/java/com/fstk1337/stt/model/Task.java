@@ -3,7 +3,7 @@ package com.fstk1337.stt.model;
 import java.time.LocalDateTime;
 
 public class Task {
-    private int id;
+    private Integer id;
     private String description;
     private Employee initiator;
     private Employee executor;
@@ -13,7 +13,7 @@ public class Task {
 
     public Task() {}
 
-    public Task(int id, String description, Employee initiator, Employee executor,
+    public Task(Integer id, String description, Employee initiator, Employee executor,
                 LocalDateTime timeInitiated, TaskDifficulty difficulty, TaskStatus status) {
         this.id = id;
         this.description = description;
@@ -24,11 +24,11 @@ public class Task {
         this.status = status;
     }
 
-    public int getId() {
+    public Integer getId() {
         return id;
     }
 
-    public void setId(int id) {
+    public void setId(Integer id) {
         this.id = id;
     }
 

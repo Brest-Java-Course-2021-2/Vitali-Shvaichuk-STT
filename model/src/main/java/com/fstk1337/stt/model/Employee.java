@@ -1,7 +1,7 @@
 package com.fstk1337.stt.model;
 
 public class Employee {
-    private int id;
+    private Integer id;
     private String firstName;
     private String lastName;
     private String position;
@@ -9,7 +9,7 @@ public class Employee {
 
     public Employee() {}
 
-    public Employee(int id, String firstName, String lastName, String position, Double rating) {
+    public Employee(Integer id, String firstName, String lastName, String position, Double rating) {
         this.id = id;
         this.firstName = firstName;
         this.lastName = lastName;
@@ -17,11 +17,11 @@ public class Employee {
         this.rating = rating;
     }
 
-    public int getId() {
+    public Integer getId() {
         return id;
     }
 
-    public void setId(int id) {
+    public void setId(Integer id) {
         this.id = id;
     }
 
